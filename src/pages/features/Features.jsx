@@ -14,6 +14,7 @@ import {
   BarChart,
   Shield
 } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 export const Features = () => {
   const [exploreModalOpen, setExploreModalOpen] = useState(false);
@@ -151,9 +152,10 @@ export const Features = () => {
                     <div className="bg-white p-5 rounded-lg border border-gray-200">
                       <h4 className="font-medium text-gray-700 mb-3">Performance</h4>
                       <p className="text-gray-600 mb-4">{activeService.details.stats}</p>
+                      <Link to={'/92013'}>
                       <button className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg text-sm">
                         Request Service Details
-                      </button>
+                      </button></Link>
                     </div>
                   </div>
                 </motion.div>

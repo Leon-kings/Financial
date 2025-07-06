@@ -10,6 +10,7 @@ import {
   ArrowForward,
   Close,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 export const Services = () => {
   const [activeTab, setActiveTab] = useState("financial-planning");
@@ -102,7 +103,7 @@ export const Services = () => {
 
   return (
     <>
-      <div className="w-full mt-4 mb-2 bg-gray-200 px-4 py-12 md:py-20 lg:px-8 max-w-7xl mx-auto">
+      <div className="w-full mt-4 mb-2 bg-gray-200 text-black px-4 py-12 md:py-20 lg:px-8 max-w-7xl mx-auto">
         {/* Service Details Modal */}
         {expandedService && (
           <motion.div
@@ -176,10 +177,11 @@ export const Services = () => {
                         </li>
                       </ul>
                     </div>
-
-                    <button className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg w-full">
-                      Request Consultation
-                    </button>
+                    <Link to={"/92013"}>
+                      <button className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg w-full">
+                        Request Consultation
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

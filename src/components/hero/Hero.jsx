@@ -17,6 +17,7 @@ import {
   ChevronLeft
 } from '@mui/icons-material';
 import { slides } from '../../assets/data/data';
+import { Link } from 'react-router-dom';
 
 const FinancialSupportModal = ({ isOpen, onClose }) => {
   const services = [
@@ -97,7 +98,7 @@ const FinancialSupportModal = ({ isOpen, onClose }) => {
                   <li>Ongoing support and adjustment of your financial plan</li>
                 </ul>
               </div>
-              
+              <Link to={'/92013'}>
               <motion.button
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
@@ -108,7 +109,7 @@ const FinancialSupportModal = ({ isOpen, onClose }) => {
                 className="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition-colors"
               >
                 Request Free Consultation
-              </motion.button>
+              </motion.button></Link>
             </div>
           </motion.div>
         </motion.div>
