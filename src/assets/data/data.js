@@ -1,12 +1,14 @@
+import slide from '../images/carousel-1.jpg'
+import slide1 from '../images/carousel-2.jpg'
 export const slides = [
     {
-      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: slide,
       tagline: "Welcome to Finanza",
       title: "Your Financial Status Is Our Goal",
       buttonText: "Explore More"
     },
     {
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1911&q=80",
+      image: slide1,
       tagline: "Welcome to Finanza",
       title: "True Financial Support For You",
       buttonText: "Explore More"

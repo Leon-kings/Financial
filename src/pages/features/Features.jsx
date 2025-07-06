@@ -82,7 +82,7 @@ export const Features = () => {
   ];
 
   return (
-    <div className="w-full bg-gray-100 mt-4 mb-2 px-4 py-12 md:py-20 lg:px-8 xl:px-0 max-w-7xl mx-auto">
+    <div className="w-full bg-gray-100 text-black mt-4 mb-2 px-4 py-12 md:py-20 lg:px-8 xl:px-0 max-w-7xl mx-auto">
       {/* Explore Services Modal */}
       {exploreModalOpen && (
         <motion.div 
@@ -192,7 +192,7 @@ export const Features = () => {
       )}
 
       {/* Main Content */}
-      <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-2 items-center">
+      <div className="w-full grid grid-cols-1 text-black lg:grid-cols-2 gap-2 items-center">
         {/* Left Column - Text Content */}
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
@@ -245,7 +245,7 @@ export const Features = () => {
         </motion.div>
 
         {/* Right Column - Feature Grid */}
-        <div className="md:grid grid-cols-2 gap-6">
+        <div className="md:grid grid-cols-2 text-black gap-6">
           {services.map((service, index) => (
             <motion.div
               key={index}

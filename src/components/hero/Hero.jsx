@@ -59,7 +59,7 @@ const FinancialSupportModal = ({ isOpen, onClose }) => {
             className="bg-white rounded-lg w-full max-w-4xl max-h-[90vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="p-4 md:p-6">
+            <div className="p-4 md:p-6 text-black">
               <div className="flex justify-between items-center mb-4 md:mb-6">
                 <h3 className="text-xl md:text-2xl font-bold text-gray-800">Financial Support Services</h3>
                 <button 
@@ -136,7 +136,7 @@ export const Hero = () => {
 
   return (
     <div 
-      className="relative w-full h-screen overflow-hidden"
+      className="relative w-full h-screen text-black overflow-hidden"
       ref={carouselRef}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

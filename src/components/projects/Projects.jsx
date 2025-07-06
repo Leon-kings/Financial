@@ -84,7 +84,7 @@ export const Projects = () => {
 
   return (
     <section 
-      className="w-full py-12 md:py-16 lg:py-20 bg-gray-50"
+      className="w-full py-12 md:py-16 lg:py-20 bg-gray-50 text-black"
       onMouseEnter={() => setIsAutoPlaying(false)}
       onMouseLeave={() => setIsAutoPlaying(true)}
     >

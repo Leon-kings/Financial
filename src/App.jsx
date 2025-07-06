@@ -13,6 +13,7 @@ import { CallbackForm } from "./components/callback/CallbackForm";
 import { Projects } from "./components/projects/Projects";
 import { Features } from "./pages/features/Features";
 import { Team } from "./pages/team/Team";
+import { ServiceRequestForm } from "./components/request/RequestServices";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
             <Route path="/76282" element={<Projects />} />
             <Route path="/13262" element={<Features />} />
            <Route path="/71810" element={<Team />} />
+           <Route path="/92013" element={<ServiceRequestForm />} />
             {/* Add more routes here as needed */}
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
